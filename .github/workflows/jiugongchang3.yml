@@ -1,0 +1,20 @@
+name: jiugongchang3
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '41 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiugongchang3
+        env:
+          ausp1: ${{ secrets.ausp1 }}
+        run: |
+          echo $ausp1 | jq -r .nmveh127 | /bin/bash
+          echo $u7 | jq -r .on5 | /bin/bash
+          echo $ekol56 | jq -r .g9745 | /bin/bash
+          echo $wgbxv4 | jq -r .eli6496 | /bin/bash
+          echo $dldw4452 | jq -r .u7755 | /bin/bash
+
